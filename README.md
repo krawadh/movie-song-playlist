@@ -2,11 +2,8 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
+**Project Requrement:**
 This is the boiler plate screen where you have to code for add movie, song by clicking the "Add Movie to Playlist" and "Add Song to Playlist" button respectively.
 And another feature on top left corner which will have reset the both playlist by clicking the "Rest Both Playlists" button.
 
