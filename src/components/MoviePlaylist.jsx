@@ -4,17 +4,15 @@ import { createRandomMovie } from "../data";
 function MoviePlaylist() {
   // To Do:
   // Get list of movies
+  const moviePlaylist = [];
 
-  const [moviePlaylist, setMoviePlaylist] = useState([]);
   const handleMovieAdd = (movie) => {
     // To Do:
     // Add movie to list of movies
-    setMoviePlaylist([...moviePlaylist, movie]);
   };
   const handleMovieRemove = (movie) => {
     // To Do:
     // Remove movie from list of movies
-    setMoviePlaylist(moviePlaylist.filter((movieList) => movieList != movie));
   };
 
   const renderedMovies = moviePlaylist.map((movie) => {
